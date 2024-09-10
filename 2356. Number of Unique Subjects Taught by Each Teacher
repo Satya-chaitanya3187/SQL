@@ -1,0 +1,7 @@
+Write a solution to calculate the number of unique subjects each teacher teaches in the university.
+
+Return the result table in any order.
+
+
+/* Write your T-SQL query statement below */
+SELECT TEACHER_ID , COUNT(DISTINCT SUBJECT_ID) AS CNT FROM TEACHER GROUP BY TEACHER_ID;
